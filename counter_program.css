@@ -1,0 +1,28 @@
+#counter {
+  font-size: 128px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 40px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgb(63, 86, 215);
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: rgb(24, 40, 164);
+}
