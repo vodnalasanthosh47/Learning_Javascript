@@ -1,0 +1,24 @@
+body {
+  background-image: url("background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#clockContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#clock {
+  color: white;
+  font-family: monospace;
+  font-size: 5em;
+  transition: font-size 1s;
+}
+
+#clock:hover {
+  font-size: 6em;
+}
