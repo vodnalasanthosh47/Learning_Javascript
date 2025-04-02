@@ -1,0 +1,48 @@
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 48px;
+}
+
+#stopwatchContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 8px;
+  margin: 36px;
+  padding: 16px;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 12px;
+}
+
+.button {
+  font-family: monospace;
+  font-size: 24px;
+  padding: 12px;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: rgb(248, 248, 248);
+}
