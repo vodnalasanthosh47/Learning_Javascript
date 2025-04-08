@@ -79,3 +79,11 @@ h2 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.2em;
 }
+
+.greenText {
+    color: #149c10;
+}
+
+.redText {
+    color: #d31c22;
+}

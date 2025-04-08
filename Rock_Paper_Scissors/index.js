@@ -55,4 +55,14 @@ function updateDisplay(result, playerChoice, computerChoice) {
     player_score.textContent = playerScore;
     computer_score.textContent = computerScore;
     declaration.textContent = result;
+
+    declaration.classList.remove("greenText", "redText");
+    switch (result) {
+        case "YOU WIN":
+            declaration.classList.add("greenText");
+            break;
+        case "YOU LOSE":
+            declaration.classList.add("redText");
+            break;
+    }
 }
