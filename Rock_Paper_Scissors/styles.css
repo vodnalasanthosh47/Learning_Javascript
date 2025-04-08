@@ -1,0 +1,81 @@
+body {
+    /* background-color: #000814; */
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* color: aliceblue; */
+    padding-top: 24px;
+}
+
+p {
+    margin: 0;
+    display: inline-block;
+}
+
+#main-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    justify-items: center;
+    margin-bottom: 12px;
+}
+
+.buttons {
+    font-size: 36px;
+    padding: 18px;
+    border-radius: 48px;
+    background-color: #fefae0;
+}
+
+.buttons:hover {
+    background-color: #f9c74f;
+    cursor: pointer;
+}
+
+#choices {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+    margin-bottom: 12px;;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+}
+
+.choice {
+    text-align: center;
+}
+
+.choice p {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #000814;
+    margin-bottom: 36px;
+}
+
+#results {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    /* text-align: center; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+}
