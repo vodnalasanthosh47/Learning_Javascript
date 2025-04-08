@@ -1,0 +1,20 @@
+#banner {
+  background-color: tomato;
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+#subscribe {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  padding: 16px 20px;
+  border-radius: 28px;
+  border: none;
+  background-color: #dddddd;
+  cursor: pointer;
+}
