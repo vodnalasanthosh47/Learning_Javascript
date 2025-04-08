@@ -1,8 +1,9 @@
 #reveal {
   font-family:Arial, Helvetica, sans-serif;
     font-size:18px;
-    padding: 12px 24px;
-    border-radius: 24px;
+    padding: 18px 24px;
+    width: 565px;
+    border-radius: 36px;
     border: none;
     background-color:bisque;
     margin-top: 16px;
