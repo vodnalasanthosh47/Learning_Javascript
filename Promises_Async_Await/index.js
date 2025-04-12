@@ -39,7 +39,7 @@ function cleanHouse() {
 function doLaundry() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            const laundryDone = true;
+            const laundryDone = false;
 
             if (laundryDone) {
                 resolve("Laundry done");
@@ -51,7 +51,27 @@ function doLaundry() {
 }
 
 
-walkDog().then(value => {console.log(value); return cleanHouse();})
-         .then(value => {console.log(value); return doLaundry();})
-         .then(value => {console.log(value); console.log("All tasks completed");})
-         .catch(error => console.log(error))
+// walkDog().then(value => {console.log(value); return cleanHouse();})
+//          .then(value => {console.log(value); return doLaundry();})
+//          .then(value => {console.log(value); console.log("All tasks completed");})
+//          .catch(error => console.error(error))
+
+
+async function performTasks() {
+    try {
+        const dogWalked = await walkDog();
+        console.log(dogWalked);
+
+        const houseCleaned = await cleanHouse();
+        console.log(houseCleaned);
+
+        const laundryDone = await doLaundry();
+        console.log(laundryDone);
+
+        console.log("All tasks completed");
+    } catch(error) {
+        console.error(error);
+    }
+}
+
+performTasks();
